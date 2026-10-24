@@ -21,3 +21,90 @@ header h1 {
     font-size: 36px;
     margin-bottom: 10px;
 }
+
+/* Menu de navegação */
+nav {
+    background-color: #192650;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Links do menu */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #6b61c4;
+}
+
+/* Espaçamento das seções */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Títulos das seções */
+section h2 {
+    color: #60afce;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Textos das seções */
+section p {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+/* Link para explorar os planetas */
+#inicio a {
+    display: inline-block;
+    background-color: #4187c9;
+    color: #ffffff;
+    padding: 12px 22px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efeito do botão */
+#inicio a:hover {
+    background-color: #75d7ff;
+    color: #080d27;
+}
+
+/* Grade que organiza os planetas */
+#lista-planetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* Cartão individual de cada planeta */
+.planeta {
+    background-color: #4620ac;
+    padding: 25px 15px;
+    border: 1px solid #304575;
+    border-radius: 15px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+/* Nome de cada planeta */
+.planeta h3 {
+    color: #75d7ff;
+    font-size: 22px;
+}
+
+/* Efeito ao passar o mouse */
+.planeta:hover {
+    transform: translateY(-8px);
+    border-color: #75d7ff;
+}
