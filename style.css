@@ -108,3 +108,40 @@ section p {
     transform: translateY(-8px);
     border-color: #75d7ff;
 }
+
+/* Adaptação para tablets */
+@media (max-width: 900px) {
+    #lista-planetas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Adaptação para celulares */
+@media (max-width: 500px) {
+    #lista-planetas {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+}
+
+/* Rodapé */
+footer {
+    background-color: #111a3d;
+    color: #b9c6e4;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+    border-top: 1px solid #304575;
+}
+
+footer p {
+    margin: 5px;
+}
