@@ -145,3 +145,17 @@ footer {
 footer p {
     margin: 5px;
 }
+
+/* Área que mostra as curiosidades */
+#curiosidade {
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: #192650;
+    border: 1px solid #75d7ff;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    min-height: 28px;
+}
