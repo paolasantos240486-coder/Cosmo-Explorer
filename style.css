@@ -39,7 +39,7 @@ nav a {
 
 /* Efeito ao passar o mouse */
 nav a:hover {
-    color: #6b61c4;
+    color: #1800f5;
 }
 
 /* Espaçamento das seções */
@@ -90,9 +90,9 @@ section p {
 
 /* Cartão individual de cada planeta */
 .planeta {
-    background-color: #1c4c94;
+    background-color: #052f6e;
     padding: 25px 15px;
-    border: 1px solid #304575;
+    border: 1px solid #0f3283;
     border-radius: 15px;
     transition: transform 0.3s, border-color 0.3s;
 }
