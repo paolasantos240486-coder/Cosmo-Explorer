@@ -1,0 +1,23 @@
+
+/* Configurações gerais do site */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #080d27;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #111a3d;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Título principal */
+header h1 {
+    color: #75d7ff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
